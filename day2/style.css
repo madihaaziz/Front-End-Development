@@ -1,0 +1,25 @@
+/*universal selector*/
+*{
+    color: blueviolet;
+}
+/*element selector*/
+h4{
+    color: cadetblue;
+}
+body{
+    background-color:burlywood;
+}
+/*id selector*/
+#heading1{
+    color: blue;
+}
+#heading2{
+    color: chocolate;
+}
+#heading3{
+    color: cadetblue;
+}
+/*Class selector*/
+.myclass{
+    color: cornflowerblue;
+}

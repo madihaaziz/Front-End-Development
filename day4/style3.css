@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+header{
+    height: 60px;
+    background-color: black;
+}
+a{
+    margin-right: 180px;
+}
+button{
+    background-color:#f08804 ;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+.contentbox{
+    height: 450px;
+    width: 350px;
+    border:2px;
+    margin-right: 50px;
+    display: inline-block;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}

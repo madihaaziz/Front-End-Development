@@ -1,0 +1,20 @@
+button{
+    background-color: green;
+}
+div{
+    background-color: blue;
+    color: #70bebe;
+    text-align: center;
+    text-decoration:black underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#one{
+    font-size: 24px;
+}
+#two{
+    font-size: 30px;
+}
+#three{
+    font-size: 20px;
+}
