@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+div{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    /* flex-wrap:wrap; */
+    align-content:flex-start;
+    
+
+}
+
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color:bisque;
+    height: 200px;
+    flex-shrink: 2;
+}
+#box3{
+    background-color:aquamarine;
+    height: 75px;
+}
+#box4{
+    background-color:burlywood;
+    flex-grow: 2;
+}
+#box5{
+    background-color:cadetblue;
+}

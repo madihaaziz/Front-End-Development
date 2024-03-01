@@ -54,15 +54,22 @@ div{
     border-style: solid;
     border-color: black;
 }
+body{
+    background-image: url(cat.webp);
+    background-size: cover;
+}
 #box1{
     position: static;
     background-color: aquamarine;
+    background-image: url(cat.webp);
+    background-size: contain;
 }
 #box2{
     position: relative;
     top: 20px;
     left: 10px;
     background-color: blue;
+    z-index: 4;
 }
 #box3{
     position: absolute;

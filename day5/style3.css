@@ -1,0 +1,32 @@
+ul{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    /* background-color: aquamarine; */
+}
+
+li{
+    list-style-type: disc;
+    display: inline;
+    background-color: burlywood;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height:250px;
+    width: 250px;
+    background-color:aquamarine;
+}
