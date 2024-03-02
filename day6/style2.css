@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:100px;
+    left: 200px;
+    border: 10px solid rgb(170, 170, 231);
+    border-left: 10px solid rgb(246, 122, 122);
+    animation: anim 3s ease-in -0.1s infinite normal ;
+}
+
+@keyframes anim{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
