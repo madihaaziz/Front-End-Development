@@ -1,0 +1,17 @@
+/* #box{
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+} */
+
+.para{
+    /* background-color: aquamarine; */
+    color:rgb(233, 38, 38);
+    /* border: 1px solid burlywood; */
+}
+
+.newClass{
+    background-color: aqua;
+}
