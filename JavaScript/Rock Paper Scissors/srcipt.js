@@ -6,9 +6,6 @@ let disMsg=document.querySelector("#msg");
 let yourScore=document.querySelector("#your");
 let compScore=document.querySelector("#comp");
 let msgContainer=document.querySelector(".msg-container");
-
-
-
 choices.forEach((choice)=>{
     choice.addEventListener("click",()=>{
         const userChoice=choice.getAttribute("id");
@@ -17,7 +14,6 @@ choices.forEach((choice)=>{
         compChoice();
     });
 });
-
 const playgame=(userChoice)=>{
     console.log("User choice= ",userChoice);
     const computerChoice=compChoice();
@@ -30,7 +26,6 @@ const playgame=(userChoice)=>{
         disMsg.innerText="You Win!";
         uScore+=1;
         disMsg.style.backgroundColor = "green";
-
     }
     else{
         disMsg.innerText="Computer Wins.";
@@ -40,7 +35,6 @@ const playgame=(userChoice)=>{
     yourScore.innerText=uScore;
     compScore.innerText=cScore;
 };
-
 const compChoice=()=>{
     const options=["rock","paper","scissors"];
     const randIdx=Math.floor(Math.random()*3);
