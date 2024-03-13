@@ -1,6 +1,8 @@
 let uScore=0;
 let cScore=0;
 
+let count=prompt("Enter the points!!");
+
 const choices=document.querySelectorAll(".choice");
 let disMsg=document.querySelector("#msg");
 let yourScore=document.querySelector("#your");
