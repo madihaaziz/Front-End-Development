@@ -22,7 +22,7 @@
 
 // let admin1=new Admin("XYZ","xyz@gmail.com");
 
-
+//Try and Catch
 let a=6
 let b=7
 
